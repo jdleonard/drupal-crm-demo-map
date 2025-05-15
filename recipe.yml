@@ -1,0 +1,14 @@
+name: 'CRM Contact Demo Map'
+description: 'Shows that it is easy to plot CRM Contacts&#039; addresses on a map'
+type: 'Demo'
+
+install:
+  - crm
+  - geocoder
+  - geocoder_address
+  - geocoder_field
+  - geocoder_geofield
+  - leaflet
+  - leaflet_views
+  - views
+

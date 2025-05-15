@@ -1,0 +1,32 @@
+{
+    "name": "jdleonard/drupal-crm-demo-map",
+    "description": "Shows that it is easy to plot CRM Contacts&#039; addresses on a map",
+    "keywords": ["recipe", "Drupal recipes", "drupal recipe"],
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "JD Leonard",
+            "role": "Maintainer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8",
+            "exclude": [
+                "drupal/crm"
+            ]
+        },
+        {
+            "type": "git",
+            "url": "https://git.drupalcode.org/issue/crm-3522243.git"
+        }
+    ],
+    "require": {
+        "drupal/core": "^10.4 || ^11",
+        "drupal/crm": "dev-1.0.x",
+        "drupal/geocoder": "^4.0",
+        "drupal/leaflet": "^10.2"
+    }
+}
